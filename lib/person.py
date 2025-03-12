@@ -4,4 +4,7 @@ class Person:
         self.age = age
     
     def try_open_door(self):
-        return True
+        if self.age > 3:
+            return True
+        else:
+            return False
