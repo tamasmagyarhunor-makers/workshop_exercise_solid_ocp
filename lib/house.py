@@ -8,3 +8,4 @@ class House:
             return "The door is OPEN"
         else:
             return "The door is CLOSED"
+    
